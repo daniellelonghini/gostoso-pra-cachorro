@@ -1,0 +1,13 @@
+def exibir_dicas_emergencia():
+    print("\n" + "="*40)
+    print("MÓDULO DE SAÚDE E EMERGÊNCIA")
+    print("="*40)
+    print("AVISO LEGAL IMPORTANTE: As informações abaixo não substituem a avaliação de um médico veterinário. Em caso de emergência grave, procure uma clínica imediatamente.")
+    print("-" * 40)
+    print("1. Intoxicação Alimentar:")
+    print("   Nunca provoque vômito sem orientação médica. O carvão ativado pode ser usado sob recomendação veterinária para atrasar a absorção de toxinas.")
+    print("\n2. Desidratação ou Diarreia leve:")
+    print("   Soro caseiro e água de coco natural podem ajudar na hidratação inicial.")
+    print("\n3. Compartilhamento de Remédios:")
+    print("   A maioria dos analgésicos humanos (como Paracetamol e Ibuprofeno) são ALTAMENTE TÓXICOS para cães. Nunca administre sem receita veterinária.")
+    print("="*40 + "\n")
