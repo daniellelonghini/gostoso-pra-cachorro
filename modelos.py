@@ -23,19 +23,3 @@ class PerfilCachorro:
 
     def adicionar_filhote(self, nome_filhote):
         self.filhotes.append(nome_filhote)
-
-
-# --- Testando o molde (Árvore Genealógica e Saúde) ---
-
-# 1. Criando os perfis
-luna = PerfilCachorro("Luna", "Pequeno")
-thel = PerfilCachorro("Thel", "Pequeno")
-
-# 2. Conectando a família (A Luna teve 4 filhotes, 3 estão vivos)
-luna.adicionar_filhote("Filhote 1")
-luna.adicionar_filhote("Filhote 2")
-luna.adicionar_filhote("Filhote 3")
-
-# 3. Registrando medicamentos de rotina
-luna.registrar_medicamento("Canex composto", "14/09/2026", "Vermífugo")
-luna.registrar_medicamento("Capstar", "14/09/2026", "Antipulgas")
